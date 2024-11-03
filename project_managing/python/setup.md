@@ -1,6 +1,8 @@
 ## 打包
-```python setup.py bdist        # 生成平台相关的二进制分发包
-python setup.py bdist_wheel  # 生成 Wheel 格式的分发包```
+```markdown
+python setup.py bdist        # 生成平台相关的二进制分发包
+python setup.py bdist_wheel  # 生成 Wheel 格式的分发包
+```
 
 
 ### bdist 文件夹：
@@ -11,4 +13,4 @@ python setup.py bdist_wheel  # 生成 Wheel 格式的分发包```
 build 文件夹是另一个临时文件夹，存放构建过程中生成的临时文件。build 文件夹不会自动删除，因为它可能在后续的构建过程中重复使用。你可以手动删除它来清理构建文件。
 
 ### dist 文件夹：
-dist 文件夹是最终生成分发包的位置。在这里你可以找到项目的分发文件，如*.whl 文件（Wheel 格式*和 **.tar.gz 文件（源代码分发包**。
+dist 文件夹是最终生成分发包的位置。在这里你可以找到项目的分发文件，如 **.whl文件（Wheel 格式)** 和 **.tar.gz 文件（源代码分发包)**。
