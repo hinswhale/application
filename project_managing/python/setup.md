@@ -2,6 +2,10 @@
 ```markdown
 python setup.py bdist        # 生成平台相关的二进制分发包
 python setup.py bdist_wheel  # 生成 Wheel 格式的分发包
+
+
+python setup.py clean --all  # 清理所有构建文件
+python setup.py bdist_wheel  # 重新生成二进制包
 ```
 
 
