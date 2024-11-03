@@ -20,8 +20,8 @@ g++ -dynamiclib -o libexample.dylib example.cpp
 ```
 
 解释：
--shared：指示编译器生成共享库。
--fPIC：生成位置无关的代码（Position Independent Code），适合共享库。
+-shared：指示编译器生成共享库。  
+-fPIC：生成位置无关的代码（Position Independent Code），适合共享库。  
 -o libexample.so：指定输出文件名为 libexample.so（Linux）或 libexample.dylib（macOS）。
 
 ### 运行 Python 代码调用共享库
